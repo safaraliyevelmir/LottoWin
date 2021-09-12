@@ -1,0 +1,229 @@
+
+.pagination .page-item.active .page-link {
+background-color: #37f5f9;
+}
+.pagination .page-item .page-link {
+border: 1px solid #37f5f940;
+}
+.pagination .page-item .page-link:hover {
+background-color: #37f5f9;
+border-color: #37f5f9;
+}
+
+.header .main-menu li a:hover, .header .main-menu li a:focus {
+color: #37f5f9;
+}
+
+.btn--base {
+background-color: #37f5f9;
+}
+.btn--base:hover {
+background-color: #37f5f9;
+}
+
+a.text-white:hover {
+color: #37f5f9 !important;
+}
+
+.overview-wrapper {
+background-color: #20204e;
+box-shadow: 0 0 10px #37f5f9bf;
+}
+
+.text-shadow--base {
+text-shadow: 0 0 5px #37f5f9;
+}
+.text--base {
+color: #37f5f9 !important;
+}
+
+.cumtom--nav-tabs .nav-item .nav-link, .custom--accordion-two .accordion-button:not(.collapsed), .custom--field i, .overview-card__icon, .inline-menu li a:hover, .contact-info i, .contact-info p a:hover {
+color: #37f5f9;
+}
+
+.cumtom--nav-tabs .nav-item .nav-link.active, .custom--table thead, .inline-social-links li a:hover, .button-nav-tabs .nav-item .nav-link.active, .scroll-to-top {
+background-color: #37f5f9;
+}
+
+.btn-outline--base {
+color: #37f5f9;
+border: 1px solid #37f5f9;
+}
+
+.preloader .preloader-container .animated-preloader {
+background: #37f5f9;
+}
+.preloader .preloader-container .animated-preloader:before {
+background: #37f5f9;
+}
+
+.lottery--progress .progress-bar {
+background-color: #37f5f9;
+}
+
+.btn-outline--base:hover {
+background-color: #37f5f9;
+}
+
+.how-work-card__step {
+box-shadow: 0 0 10px #37f5f98c;
+}
+
+.how-work-card__step::before {
+background-color: #37f5f9;
+}
+
+.ticket-card__body .numbers.active span {
+color: #37f5f9;
+text-shadow: 0 2px 5px #37f5f9;
+}
+
+.stat-card {
+box-shadow: inset 0 0 10px #37f5f9d9;
+}
+
+.feature-card {
+box-shadow: inset 0 0 15px #37f5f9d9;
+}
+.feature-card:hover {
+box-shadow: 0 5px 15px #37f5f940, inset 0 0 15px #37f5f9d9;
+border-color: #37f5f9;
+}
+
+.custom--accordion .accordion-item {
+border: 1px solid #37f5f980;
+}
+
+.custom--accordion .accordion-button:not(.collapsed) {
+background-color: #37f5f9;
+}
+
+.winner-card {
+border: 1px solid #37f5f973;
+box-shadow: inset 0 0 10px #37f5f9d9;
+}
+.winner-card:hover {
+box-shadow: 0 5px 15px #37f5f940, inset 0 0 15px #37f5f9d9;
+border-color: #37f5f9;
+}
+
+.testimonial-item {
+border: 3px solid #37f5f9;
+}
+
+.subscribe-wrapper {
+box-shadow: 0 0 10px #37f5f980;
+}
+
+.subscribe-form .form--control {
+border-bottom: 1px solid #37f5f980;
+}
+
+.form--control:focus {
+border-color: #37f5f9 !important;
+}
+
+.lottery-details-header .content .clock.disabled {
+color: #37f5f9;
+}
+.lottery-details-header .content .clock > div {
+box-shadow: inset 0 0 10px #37f5f9f9;
+}
+.lottery-details-header .content .clock > div span {
+color: #37f5f9;
+}
+
+.account-wrapper,
+.lottery-details-header {
+--shadow-1: #37f5f925;
+--shadow-2: #37f5f935;
+--shadow-3:  #37f5f945;
+}
+
+.cumtom--nav-tabs .nav-item .nav-link.active {
+border-color: #37f5f9;
+}
+.cumtom--nav-tabs .nav-item .nav-link {
+border: 1px solid #37f5f9;
+}
+
+.blog-card {
+box-shadow: 0 0 0px 2px #37f5f954;
+}
+
+.blog-card__meta li i {
+color: #37f5f9;
+}
+
+.blog-details__thumb .post__date .date {
+background-color: #37f5f9;
+}
+
+.sidebar .widget-title::before {
+background-color: #37f5f9;
+}
+
+a:hover {
+color: #37f5f9;
+}
+
+.page-breadcrumb li:first-child::before {
+color: #37f5f9;
+}
+
+.page-breadcrumb li a:hover {
+color: #37f5f9;
+}
+
+.account-wrapper {
+border: 2px solid #37f5f98c;
+}
+
+.form--control {
+border: 1px solid #37f5f9;
+}
+
+.input-group-text {
+background-color: #37f5f9 !important;
+border: 1px solid #37f5f9 !important;
+}
+
+.balance-card {
+background-color: #37f5f9;
+}
+.dashboard-card .number {
+color: #37f5f9;
+}
+
+.dashboard-card .icon {
+color: #37f5f9;
+}
+
+.header .main-menu li .sub-menu li a:hover {
+background-color: #37f5f90d;
+color: #37f5f9;
+}
+
+.header .main-menu li.menu_has_children:hover > a::before {
+color: #37f5f9;
+}
+
+.custom__bg {
+box-shadow: 0 0 10px #37f5f980;
+}
+
+.custom--file-upload ~ label {
+background-color: #37f5f9;
+}
+
+.profile-thumb .avatar-edit label {
+background-color: #37f5f9;
+}
+
+.lottery-details-body .top-part .middle .balance {
+color: #37f5f9;
+}
+
+.ticket-card .ticket-card-del {
+background-color: #37f5f9;
+}

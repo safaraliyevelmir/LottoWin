@@ -1,0 +1,311 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-27 17:14+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: announcment/forms.py:13
+msgid "Email Address"
+msgstr ""
+
+#: base_user/forms.py:70
+msgid "New password"
+msgstr ""
+
+#: base_user/forms.py:76
+msgid "New password confirmation"
+msgstr ""
+
+#: base_user/models.py:15
+msgid "The Email must be set"
+msgstr ""
+
+#: base_user/models.py:32
+msgid "Superuser must have is_staff=True."
+msgstr ""
+
+#: base_user/models.py:34
+msgid "Superuser must have is_superuser=True."
+msgstr ""
+
+#: base_user/templates/forgot-password.html:11
+#: base_user/templates/forgot-password.html:16
+#: base_user/templates/password_reset_confirm.html:11
+#: base_user/templates/password_reset_confirm.html:14
+msgid "Forgot Password"
+msgstr ""
+
+#: base_user/templates/forgot-password.html:14
+#: base_user/templates/login.html:16
+#: base_user/templates/password_reset_complete.html:14
+#: base_user/templates/password_reset_confirm.html:13
+#: base_user/templates/password_reset_done.html:14
+#: base_user/templates/register.html:17 blog/templates/blog.html:15
+#: templates/about.html:18 templates/base.html:108 templates/base.html:230
+#: templates/contact.html:15 templates/lotteries.html:16
+msgid "Home"
+msgstr ""
+
+#: base_user/templates/forgot-password.html:37
+msgid ""
+"Enter the email address of your account and click on link that we sent you "
+"to recover your account"
+msgstr ""
+
+#: base_user/templates/forgot-password.html:41
+#: base_user/templates/login.html:61 templates/contact.html:67
+msgid "Email"
+msgstr ""
+
+#: base_user/templates/forgot-password.html:58
+msgid "Want to sign in"
+msgstr ""
+
+#: base_user/templates/forgot-password.html:60
+#: base_user/templates/password_reset_confirm.html:61
+msgid "Click here"
+msgstr ""
+
+#: base_user/templates/login.html:11 base_user/templates/login.html:19
+msgid "Sign In"
+msgstr ""
+
+#: base_user/templates/login.html:49
+msgid "Welcome Back to LottoLab"
+msgstr ""
+
+#: base_user/templates/login.html:68 base_user/templates/register.html:356
+msgid "Password"
+msgstr ""
+
+#: base_user/templates/login.html:99
+msgid "Forget Password?"
+msgstr ""
+
+#: base_user/templates/login.html:103
+msgid "Login Now"
+msgstr ""
+
+#: base_user/templates/login.html:106
+msgid "New to LottoLab?"
+msgstr ""
+
+#: base_user/templates/login.html:108
+msgid "Register here"
+msgstr ""
+
+#: base_user/templates/password_reset_complete.html:12
+#: base_user/templates/password_reset_complete.html:15
+#: base_user/templates/password_reset_done.html:12
+#: base_user/templates/password_reset_done.html:15
+msgid "Forgot Password?"
+msgstr ""
+
+#: base_user/templates/password_reset_complete.html:37
+msgid "Your Password changed successfully"
+msgstr ""
+
+#: base_user/templates/password_reset_complete.html:42
+msgid "Click here and"
+msgstr ""
+
+#: base_user/templates/password_reset_confirm.html:39
+msgid "Yeni Parol"
+msgstr ""
+
+#: base_user/templates/password_reset_confirm.html:45
+msgid "Yeni Parolunu təsdiqlə"
+msgstr ""
+
+#: base_user/templates/password_reset_confirm.html:60
+msgid "Want to sign in?"
+msgstr ""
+
+#: base_user/templates/password_reset_done.html:37
+msgid ""
+"We’ve emailed you instructions for setting your password, if an account "
+"exists with the email you entered. You should receive them shortly. If you "
+"don’t receive an email, please make sure you’ve entered the address you "
+"registered with, and check your spam folder"
+msgstr ""
+
+#: base_user/templates/register.html:13 base_user/templates/register.html:19
+msgid "Sign Up"
+msgstr ""
+
+#: base_user/templates/register.html:56
+msgid "Register"
+msgstr ""
+
+#: base_user/templates/register.html:66
+msgid "First Name"
+msgstr ""
+
+#: base_user/templates/register.html:72
+msgid "Last Name"
+msgstr ""
+
+#: base_user/templates/register.html:335
+msgid "Number "
+msgstr ""
+
+#: base_user/templates/register.html:343
+msgid "Username"
+msgstr ""
+
+#: base_user/templates/register.html:350
+msgid "E-Mail Address"
+msgstr ""
+
+#: base_user/templates/register.html:362
+msgid "Confirm Password"
+msgstr ""
+
+#: base_user/templates/register.html:394
+msgid "I agree with"
+msgstr ""
+
+#: base_user/templates/register.html:396 templates/base.html:248
+msgid "Privacy Policy"
+msgstr ""
+
+#: base_user/templates/register.html:398 templates/base.html:254
+msgid "Terms and Condition"
+msgstr ""
+
+#: blog/templates/blog.html:16 templates/base.html:123
+msgid "Blog"
+msgstr ""
+
+#: contact/forms.py:12
+msgid "Your Name"
+msgstr ""
+
+#: templates/about.html:14 templates/about.html:21 templates/base.html:118
+#: templates/base.html:242
+msgid "About"
+msgstr ""
+
+#: templates/about.html:44
+msgid "About Us"
+msgstr ""
+
+#: templates/about.html:59 templates/index.html:201
+msgid "Why You Trust Our Service"
+msgstr ""
+
+#: templates/base.html:113 templates/base.html:236 templates/lotteries.html:12
+#: templates/lotteries.html:18
+msgid "Lotteries"
+msgstr ""
+
+#: templates/base.html:128
+msgid "Contact"
+msgstr ""
+
+#: templates/base.html:139
+msgid "Logout"
+msgstr ""
+
+#: templates/base.html:268
+msgid "2021 - Lottowin All Rights Reserved"
+msgstr ""
+
+#: templates/contact.html:11 templates/contact.html:16
+#: templates/contact.html:51
+msgid "Contact Us"
+msgstr ""
+
+#: templates/contact.html:58
+msgid "Name"
+msgstr ""
+
+#: templates/contact.html:76
+msgid "Subject"
+msgstr ""
+
+#: templates/contact.html:85
+msgid "Message"
+msgstr ""
+
+#: templates/contact.html:94
+msgid "Submit Now"
+msgstr ""
+
+#: templates/index.html:22
+msgid "Get Started"
+msgstr ""
+
+#: templates/index.html:42
+msgid "Total Users"
+msgstr ""
+
+#: templates/index.html:55
+msgid "Total Winners"
+msgstr ""
+
+#: templates/index.html:68
+msgid "Total Visitors"
+msgstr ""
+
+#: templates/index.html:87
+msgid "Lottery Calendar"
+msgstr ""
+
+#: templates/index.html:98 templates/lotteries.html:35
+msgid "Title"
+msgstr ""
+
+#: templates/index.html:99 templates/lotteries.html:36
+msgid "Start Date"
+msgstr ""
+
+#: templates/index.html:101 templates/lotteries.html:38
+msgid "End Date"
+msgstr ""
+
+#: templates/index.html:104 templates/lotteries.html:41
+msgid "Price"
+msgstr ""
+
+#: templates/index.html:107 templates/lotteries.html:44
+msgid "Sold"
+msgstr ""
+
+#: templates/index.html:110 templates/lotteries.html:47
+msgid "Status"
+msgstr ""
+
+#: templates/index.html:113 templates/lotteries.html:50
+msgid "Action"
+msgstr ""
+
+#: templates/index.html:155
+msgid "View All"
+msgstr ""
+
+#: templates/index.html:272
+msgid "Recent Winners"
+msgstr ""
+
+#: templates/index.html:309
+msgid "Join our mail list to get latest announcement"
+msgstr ""
+
+#: templates/index.html:317
+msgid "Subscribe"
+msgstr ""
