@@ -1,0 +1,118 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+<div class="main-wrapper">
+
+    <section class="inner-hero bg_img overlay--one" style="background-image: url(./assets/images/bg.jpg);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <h2 class="page-title text-white">
+                        {% trans "Lotteries" %}
+                    </h2>
+                    <ul class="page-breadcrumb justify-content-center">
+                        <li><a href="https://script.viserlab.com/Lottowin">
+                        {% trans "Home" %}</a></li>
+                        <li>
+                            {% trans "Lotteries" %}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- inner hero end -->
+
+    <section class="pt-50 pb-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="table-responsive--md">
+                        <table class="table custom--table">
+                            <thead>
+                                <tr>
+                                    <th>{% trans "Title" %}</th>
+                                    <th>{% trans "Start Date" %}</th>
+                                    <th>
+                                        {% trans "End Date" %}
+                                    </th>
+                                    <th>
+                                        {% trans "Price" %}
+                                    </th>
+                                    <th>
+                                        {% trans "Sold" %}
+                                    </th>
+                                    <th>
+                                        {% trans "Action" %}
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                {% for x in lotteries %}
+                                <tr class='lotto'>
+                                    <td data-label="Title">
+                                        <div class="table-game">
+                                            <img src="{% static 'assets/images/lottery/neon_money.png' %}"
+                                                alt="image">
+                                            <h6 class="name">{{x.title}}</h6>
+                                        </div>
+                                    </td>
+                                    <td data-label="Start Date">{{x.start_date|date:"Y/m/d"}}</td>
+                                    <td data-label="End Date">{{x.end_date|date:"Y/m/d"}}</td>
+                                    <td data-label="Price">{{x.price}} USD</td>
+                                    <td data-label="Sold">
+                                        <div class="progress lottery--progress">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                                role="progressbar" aria-valuenow="{{x.count_ticker}}" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: {{x.percantage}}%"></div>
+                                        </div>
+                                        <span class="fs--14px per-count">{{x.percantage}}%</span>
+                                    </td>
+                                    <td data-label="Action"><a
+                                            href="{{x.get_absolute_url}}"
+                                            class="btn btn-sm btn-outline--base">{% trans "Buy Ticket" %}</a></td>
+                                </tr>
+                                {% endfor %}
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-2">
+
+            </div>
+        </div>
+    </section>
+
+</div><!-- main-wrapper end -->
+{% endblock content %}
+
+{% block js %}
+
+<script>
+
+
+tr = document.getElementsByClassName('lotto')
+len = tr.length
+
+
+
+for (i=0;i<len;i++){
+
+    now_a = document.getElementsByClassName('progress-bar')[i].getAttribute('aria-valuenow')
+    max_a = document.getElementsByClassName('progress-bar')[i].getAttribute('aria-valuemax')
+
+    now_b=max_a -now_a
+    per = now_b/max_a*100+'%'
+    per = document.getElementsByClassName('progress-bar')[i].style.width = per  
+    document.getElementsByClassName('per-count')[i].innerHTML = per
+}
+
+</script>
+
+
+{% endblock js %}
